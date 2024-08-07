@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Task Rabbit</title>
+</head>
+<body>
+    <div class="bg-container">
+        <div>
+            <div>
+                <h1 class="heading-element">Task Rabbit</h1>
+            </div>
+                <div class="layout">
+                <h1 class="sub-heading">Email</h1>
+                <input id="email" class="input-element" placeholder="Enter your Gmail Id">
+                </div>
+                <div class="layout">
+                <h1 class="sub-heading">UserName</h1>
+                <input id="username" class="input-element" placeholder="Enter your UserName">
+                </div>
+                <div class="layout">
+                <h1 class="sub-heading">Create Password</h1>
+                <input type="password" id="createp" class="input-element" placeholder="Enter your Password">
+                </div>
+                <div class="layout">
+                    <h1 class="sub-heading">Confirm Password</h1>
+                    <input type="password" id="confirmp" class="input-element" placeholder="Enter your Password">
+                    </div>
+                <div class="layout">
+                <h1 class="sub-heading">Mobile Number</h1>
+                <input id="phone" class="input-element" placeholder="Enter your Mobile Number">
+                <div class="align">
+                    <button class="btn btn-primary d-block button" onclick="checkvalues()">Submit</button>
+                    <a href="create.html">
+                    <button class="btn btn-primary button">Next Section</button>
+                </a>
+                </div>
+                <p id="complete" class="Successful"></p>
+        </div>
+    </div>
+    <div id="createSection">
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
